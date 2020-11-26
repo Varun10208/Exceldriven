@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPackage.assertTest">
+      <class name="TestPackage.sourcefuse">
         <methods>
-          <include name="softAssert"/>
-          <include name="hardAssert"/>
+          <include name="testcase4"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestPackage.assertTest -->
+      </class> <!-- TestPackage.sourcefuse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

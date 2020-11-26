@@ -51,7 +51,7 @@ WebDriver driver;
 	System.out.println("hardAssert Method Was Started");
 	Assert.assertTrue(true);
 	System.out.println("hardAssert Method Was Executed");
-	//driver.quit();
+	driver.quit();
 	 }
 	 
 	}
