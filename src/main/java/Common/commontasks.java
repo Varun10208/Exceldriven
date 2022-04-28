@@ -16,8 +16,8 @@ public class commontasks {
 	}
 	public  void takescreenshot(String filename) throws IOException {
 		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File destinationfile=new File("C:\\Users\\varuny\\eclipse-workspace\\Exceldriven\\src\\main\\resources\\screenshots\\"+filename+".jpeg");
-		FileUtils.copyFile(file, destinationfile);
+		File destfile=new File("C:\\Users\\varuny\\eclipse-workspace\\Exceldriven\\src\\main\\resources\\screenshots\\"+filename+".jpeg");
+		FileUtils.copyFile(file, destfile);
 		
 	}
 	
